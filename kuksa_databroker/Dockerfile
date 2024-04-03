@@ -48,6 +48,7 @@ COPY ./dist/$TARGETARCH/thirdparty/ /app/thirdparty
 
 COPY ./data/vss-core/vss_release_3.1.1.json vss_release_3.1.1.json
 COPY ./data/vss-core/vss_release_4.0.json vss_release_4.0.json
+
 COPY ./data/vss-core/vss_rel_5.0-immo.json  vss_rel_5.0-immo.json
 
 
