@@ -13,7 +13,7 @@
 
 # This is expected to be executed in the kuksa.val top-level directory
 # You need to run build-all-targets.sh first, as this docker file jsut
-# collects the artifacts
+# collects the artifacts.
 
 
 # Different targets need different base images, so prepare aliases here
