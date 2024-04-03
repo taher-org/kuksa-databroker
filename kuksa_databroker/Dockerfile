@@ -48,10 +48,12 @@ COPY ./dist/$TARGETARCH/thirdparty/ /app/thirdparty
 
 COPY ./data/vss-core/vss_release_3.1.1.json vss_release_3.1.1.json
 COPY ./data/vss-core/vss_release_4.0.json vss_release_4.0.json
+COPY ./data/vss-core/vss_rel_5.0-immo.json  vss_rel_5.0-immo.json
+
 
 ENV KUKSA_DATA_BROKER_ADDR=0.0.0.0
 ENV KUKSA_DATA_BROKER_PORT=55555
-ENV KUKSA_DATA_BROKER_METADATA_FILE=vss_release_4.0.json
+ENV KUKSA_DATA_BROKER_METADATA_FILE=vss_rel_5.0-immo.json
 
 EXPOSE $KUKSA_DATA_BROKER_PORT
 
